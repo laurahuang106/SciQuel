@@ -1,0 +1,177 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.header {
+    color:rgb(0, 42, 0);
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-news-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 140px;
+}
+
+.top-news-block{
+    width: 45%;
+    background: rgb(94,161,156);
+    background: linear-gradient(0deg, rgba(94,161,156,1) 0%, rgba(34,117,142,1) 100%);
+    border-radius: 6px;
+    padding: 20px;
+    z-index: 2;
+    margin-left: 45px;
+}
+
+.top-news-block h1{
+    color: white;
+    padding-top: 20px;
+}
+
+.top-new-description{
+    color: white;
+    font-size: 22px;
+    width: 90%;
+    padding-bottom: 15px;
+}
+
+.top-author-date{
+    position:absolute;
+    color:#777;
+    margin-left: 45px;
+    bottom: -35px;
+    z-index: 2;
+    font-family: Source+Serif+4, sans-serif;
+}
+
+.top-news-image{
+    border-radius: 6px;
+    position: absolute; 
+    right: 0;
+    z-index: 1;
+    width: 650px; 
+    height: 400px; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 25px;
+}
+
+.top-news-image img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 320px;
+    border: 1px solid #ddd;
+    padding: 0 5px;
+    background: #f9f9f9;
+    position: relative;
+    border-radius: 6px;
+}
+
+.card-main-content{
+    margin: 12px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-desc{
+    width:260px;
+    margin-bottom: 30px;
+}
+
+.title-desc p{
+    font-size: medium;
+}
+
+.author-date{
+    color:rgb(177, 177, 177);
+    font-size: small;
+    font-family: Source+Serif+4, sans-serif;
+}
+
+.category {
+    padding: 5px;
+    background-color: rgb(223, 136, 93);
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 7%;
+    padding: 6px 9px;
+}
+
+.category-chemistry {
+    background-color: burlywood;
+}
+
+.category-geology{
+    background-color: darkslategray;
+}
+
+.article-tag{
+    color: #777;
+    font-size:10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.card-image{
+    width: 320px; 
+    height: 110px; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.card-image img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.read-more a {
+    color: rgb(67, 46, 40);
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.read-more i {
+    margin-left: 5px;
+}
